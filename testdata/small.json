@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "username": "user1",
+    "email": "user1@example.com",
+    "first_name": "Juliana",
+    "last_name": "Carlos",
+    "active": true,
+    "created_at": "2025-02-14T06:43:33.9580903-03:00",
+    "updated_at": "2025-11-22T06:43:33.9653979-03:00",
+    "profile": {
+      "bio": "Tech lead focado em performance e escalabilidade",
+      "avatar": "https://avatar.example.com/1",
+      "location": "Blumenau, BR",
+      "website": "https://user1.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user"
+    ]
+  }
+]

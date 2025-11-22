@@ -1,0 +1,2503 @@
+[
+  {
+    "id": 1,
+    "username": "user1",
+    "email": "user1@example.com",
+    "first_name": "Letícia",
+    "last_name": "Carlos",
+    "active": true,
+    "created_at": "2025-01-03T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Site Reliability Engineer mantendo sistemas no ar 24/7",
+      "avatar": "https://avatar.example.com/1",
+      "location": "Blumenau, BR",
+      "website": "https://user1.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator"
+    ]
+  },
+  {
+    "id": 2,
+    "username": "user2",
+    "email": "user2@example.com",
+    "first_name": "Amanda",
+    "last_name": "Felipe",
+    "active": true,
+    "created_at": "2025-09-18T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/2",
+      "location": "Belo Horizonte, BR",
+      "website": "https://user2.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "id": 3,
+    "username": "user3",
+    "email": "user3@example.com",
+    "first_name": "Carlos",
+    "last_name": "Beatriz",
+    "active": false,
+    "created_at": "2025-05-28T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "DevOps engineer automatizando tudo que é possível",
+      "avatar": "https://avatar.example.com/3",
+      "location": "Blumenau, BR",
+      "website": "https://user3.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "developer"
+    ]
+  },
+  {
+    "id": 4,
+    "username": "user4",
+    "email": "user4@example.com",
+    "first_name": "Amanda",
+    "last_name": "Ana",
+    "active": false,
+    "created_at": "2025-10-18T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/4",
+      "location": "Florianópolis, BR",
+      "website": "https://user4.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer"
+    ]
+  },
+  {
+    "id": 5,
+    "username": "user5",
+    "email": "user5@example.com",
+    "first_name": "Gabriel",
+    "last_name": "Maria",
+    "active": true,
+    "created_at": "2025-02-03T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "DevOps engineer automatizando tudo que é possível",
+      "avatar": "https://avatar.example.com/5",
+      "location": "São Paulo, BR",
+      "website": "https://user5.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "moderator",
+      "user"
+    ]
+  },
+  {
+    "id": 6,
+    "username": "user6",
+    "email": "user6@example.com",
+    "first_name": "Fernanda",
+    "last_name": "Letícia",
+    "active": true,
+    "created_at": "2025-06-25T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/6",
+      "location": "Florianópolis, BR",
+      "website": "https://user6.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "id": 7,
+    "username": "user7",
+    "email": "user7@example.com",
+    "first_name": "Maria",
+    "last_name": "Fernanda",
+    "active": true,
+    "created_at": "2025-03-04T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/7",
+      "location": "Brasília, BR",
+      "website": "https://user7.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "id": 8,
+    "username": "user8",
+    "email": "user8@example.com",
+    "first_name": "Carlos",
+    "last_name": "Amanda",
+    "active": false,
+    "created_at": "2024-12-27T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Tech lead focado em performance e escalabilidade",
+      "avatar": "https://avatar.example.com/8",
+      "location": "Blumenau, BR",
+      "website": "https://user8.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator"
+    ]
+  },
+  {
+    "id": 9,
+    "username": "user9",
+    "email": "user9@example.com",
+    "first_name": "Lucas",
+    "last_name": "Maria",
+    "active": true,
+    "created_at": "2025-05-25T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Engenheira de software especialista em backend e APIs",
+      "avatar": "https://avatar.example.com/9",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user9.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user",
+      "viewer"
+    ]
+  },
+  {
+    "id": 10,
+    "username": "user10",
+    "email": "user10@example.com",
+    "first_name": "Beatriz",
+    "last_name": "Gabriel",
+    "active": true,
+    "created_at": "2025-05-25T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "DevOps engineer automatizando tudo que é possível",
+      "avatar": "https://avatar.example.com/10",
+      "location": "Belo Horizonte, BR",
+      "website": "https://user10.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer"
+    ]
+  },
+  {
+    "id": 11,
+    "username": "user11",
+    "email": "user11@example.com",
+    "first_name": "Ana",
+    "last_name": "Rafael",
+    "active": false,
+    "created_at": "2024-12-07T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/11",
+      "location": "Belo Horizonte, BR",
+      "website": "https://user11.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user",
+      "viewer"
+    ]
+  },
+  {
+    "id": 12,
+    "username": "user12",
+    "email": "user12@example.com",
+    "first_name": "Ana",
+    "last_name": "Amanda",
+    "active": true,
+    "created_at": "2025-06-26T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Tech lead focado em performance e escalabilidade",
+      "avatar": "https://avatar.example.com/12",
+      "location": "Curitiba, BR",
+      "website": "https://user12.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "viewer"
+    ]
+  },
+  {
+    "id": 13,
+    "username": "user13",
+    "email": "user13@example.com",
+    "first_name": "Maria",
+    "last_name": "Camila",
+    "active": true,
+    "created_at": "2025-01-06T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Backend developer construindo APIs que escalam",
+      "avatar": "https://avatar.example.com/13",
+      "location": "Porto Alegre, BR",
+      "website": "https://user13.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user",
+      "viewer"
+    ]
+  },
+  {
+    "id": 14,
+    "username": "user14",
+    "email": "user14@example.com",
+    "first_name": "Ana",
+    "last_name": "Amanda",
+    "active": true,
+    "created_at": "2025-08-16T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/14",
+      "location": "Curitiba, BR",
+      "website": "https://user14.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer"
+    ]
+  },
+  {
+    "id": 15,
+    "username": "user15",
+    "email": "user15@example.com",
+    "first_name": "Rafael",
+    "last_name": "Fernanda",
+    "active": true,
+    "created_at": "2025-09-09T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Site Reliability Engineer mantendo sistemas no ar 24/7",
+      "avatar": "https://avatar.example.com/15",
+      "location": "Curitiba, BR",
+      "website": "https://user15.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "developer",
+      "user"
+    ]
+  },
+  {
+    "id": 16,
+    "username": "user16",
+    "email": "user16@example.com",
+    "first_name": "Ana",
+    "last_name": "Patricia",
+    "active": false,
+    "created_at": "2025-03-18T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/16",
+      "location": "Florianópolis, BR",
+      "website": "https://user16.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer"
+    ]
+  },
+  {
+    "id": 17,
+    "username": "user17",
+    "email": "user17@example.com",
+    "first_name": "Amanda",
+    "last_name": "João",
+    "active": true,
+    "created_at": "2025-04-10T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/17",
+      "location": "Blumenau, BR",
+      "website": "https://user17.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer"
+    ]
+  },
+  {
+    "id": 18,
+    "username": "user18",
+    "email": "user18@example.com",
+    "first_name": "Gabriel",
+    "last_name": "Lucas",
+    "active": false,
+    "created_at": "2025-10-28T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/18",
+      "location": "Belo Horizonte, BR",
+      "website": "https://user18.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin",
+      "viewer"
+    ]
+  },
+  {
+    "id": 19,
+    "username": "user19",
+    "email": "user19@example.com",
+    "first_name": "Rodrigo",
+    "last_name": "Bruno",
+    "active": false,
+    "created_at": "2025-04-20T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Tech lead focado em performance e escalabilidade",
+      "avatar": "https://avatar.example.com/19",
+      "location": "Porto Alegre, BR",
+      "website": "https://user19.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator",
+      "user",
+      "admin"
+    ]
+  },
+  {
+    "id": 20,
+    "username": "user20",
+    "email": "user20@example.com",
+    "first_name": "Amanda",
+    "last_name": "Letícia",
+    "active": false,
+    "created_at": "2025-01-06T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/20",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user20.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator",
+      "viewer"
+    ]
+  },
+  {
+    "id": 21,
+    "username": "user21",
+    "email": "user21@example.com",
+    "first_name": "Rodrigo",
+    "last_name": "Rafael",
+    "active": true,
+    "created_at": "2025-10-08T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Engenheira de software especialista em backend e APIs",
+      "avatar": "https://avatar.example.com/21",
+      "location": "Belo Horizonte, BR",
+      "website": "https://user21.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "id": 22,
+    "username": "user22",
+    "email": "user22@example.com",
+    "first_name": "Felipe",
+    "last_name": "João",
+    "active": false,
+    "created_at": "2025-03-04T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/22",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user22.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "id": 23,
+    "username": "user23",
+    "email": "user23@example.com",
+    "first_name": "Beatriz",
+    "last_name": "Patricia",
+    "active": true,
+    "created_at": "2024-12-16T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Site Reliability Engineer mantendo sistemas no ar 24/7",
+      "avatar": "https://avatar.example.com/23",
+      "location": "Curitiba, BR",
+      "website": "https://user23.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "viewer",
+      "admin"
+    ]
+  },
+  {
+    "id": 24,
+    "username": "user24",
+    "email": "user24@example.com",
+    "first_name": "Amanda",
+    "last_name": "Letícia",
+    "active": false,
+    "created_at": "2025-04-24T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/24",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user24.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "moderator"
+    ]
+  },
+  {
+    "id": 25,
+    "username": "user25",
+    "email": "user25@example.com",
+    "first_name": "Carlos",
+    "last_name": "Carlos",
+    "active": true,
+    "created_at": "2025-03-28T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Site Reliability Engineer mantendo sistemas no ar 24/7",
+      "avatar": "https://avatar.example.com/25",
+      "location": "Florianópolis, BR",
+      "website": "https://user25.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer"
+    ]
+  },
+  {
+    "id": 26,
+    "username": "user26",
+    "email": "user26@example.com",
+    "first_name": "Lucas",
+    "last_name": "Maria",
+    "active": true,
+    "created_at": "2025-08-15T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/26",
+      "location": "Porto Alegre, BR",
+      "website": "https://user26.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "user",
+      "moderator"
+    ]
+  },
+  {
+    "id": 27,
+    "username": "user27",
+    "email": "user27@example.com",
+    "first_name": "Patricia",
+    "last_name": "Rafael",
+    "active": false,
+    "created_at": "2025-08-01T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/27",
+      "location": "São Paulo, BR",
+      "website": "https://user27.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "admin"
+    ]
+  },
+  {
+    "id": 28,
+    "username": "user28",
+    "email": "user28@example.com",
+    "first_name": "Gabriel",
+    "last_name": "Maria",
+    "active": false,
+    "created_at": "2025-09-19T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Tech lead focado em performance e escalabilidade",
+      "avatar": "https://avatar.example.com/28",
+      "location": "Curitiba, BR",
+      "website": "https://user28.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "moderator",
+      "admin"
+    ]
+  },
+  {
+    "id": 29,
+    "username": "user29",
+    "email": "user29@example.com",
+    "first_name": "Amanda",
+    "last_name": "Rodrigo",
+    "active": true,
+    "created_at": "2025-05-30T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/29",
+      "location": "Blumenau, BR",
+      "website": "https://user29.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user",
+      "admin"
+    ]
+  },
+  {
+    "id": 30,
+    "username": "user30",
+    "email": "user30@example.com",
+    "first_name": "Maria",
+    "last_name": "Letícia",
+    "active": true,
+    "created_at": "2025-09-02T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/30",
+      "location": "Curitiba, BR",
+      "website": "https://user30.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "developer",
+      "admin"
+    ]
+  },
+  {
+    "id": 31,
+    "username": "user31",
+    "email": "user31@example.com",
+    "first_name": "Felipe",
+    "last_name": "João",
+    "active": true,
+    "created_at": "2025-01-03T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Engenheira de software especialista em backend e APIs",
+      "avatar": "https://avatar.example.com/31",
+      "location": "Blumenau, BR",
+      "website": "https://user31.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "moderator"
+    ]
+  },
+  {
+    "id": 32,
+    "username": "user32",
+    "email": "user32@example.com",
+    "first_name": "Maria",
+    "last_name": "Beatriz",
+    "active": false,
+    "created_at": "2025-09-13T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Site Reliability Engineer mantendo sistemas no ar 24/7",
+      "avatar": "https://avatar.example.com/32",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user32.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin",
+      "moderator"
+    ]
+  },
+  {
+    "id": 33,
+    "username": "user33",
+    "email": "user33@example.com",
+    "first_name": "Bruno",
+    "last_name": "Carlos",
+    "active": true,
+    "created_at": "2025-07-25T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/33",
+      "location": "Brasília, BR",
+      "website": "https://user33.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "moderator",
+      "user"
+    ]
+  },
+  {
+    "id": 34,
+    "username": "user34",
+    "email": "user34@example.com",
+    "first_name": "Carlos",
+    "last_name": "Ana",
+    "active": true,
+    "created_at": "2025-07-17T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/34",
+      "location": "Florianópolis, BR",
+      "website": "https://user34.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer"
+    ]
+  },
+  {
+    "id": 35,
+    "username": "user35",
+    "email": "user35@example.com",
+    "first_name": "Rafael",
+    "last_name": "Letícia",
+    "active": false,
+    "created_at": "2025-11-12T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/35",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user35.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "moderator"
+    ]
+  },
+  {
+    "id": 36,
+    "username": "user36",
+    "email": "user36@example.com",
+    "first_name": "Fernanda",
+    "last_name": "Juliana",
+    "active": true,
+    "created_at": "2024-12-15T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/36",
+      "location": "Porto Alegre, BR",
+      "website": "https://user36.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator",
+      "user"
+    ]
+  },
+  {
+    "id": 37,
+    "username": "user37",
+    "email": "user37@example.com",
+    "first_name": "Ana",
+    "last_name": "Lucas",
+    "active": false,
+    "created_at": "2025-02-19T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Tech lead focado em performance e escalabilidade",
+      "avatar": "https://avatar.example.com/37",
+      "location": "Florianópolis, BR",
+      "website": "https://user37.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "developer",
+      "moderator"
+    ]
+  },
+  {
+    "id": 38,
+    "username": "user38",
+    "email": "user38@example.com",
+    "first_name": "Felipe",
+    "last_name": "Rafael",
+    "active": false,
+    "created_at": "2025-03-06T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/38",
+      "location": "Florianópolis, BR",
+      "website": "https://user38.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "admin"
+    ]
+  },
+  {
+    "id": 39,
+    "username": "user39",
+    "email": "user39@example.com",
+    "first_name": "Pedro",
+    "last_name": "Lucas",
+    "active": true,
+    "created_at": "2024-12-31T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Tech lead focado em performance e escalabilidade",
+      "avatar": "https://avatar.example.com/39",
+      "location": "Curitiba, BR",
+      "website": "https://user39.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user"
+    ]
+  },
+  {
+    "id": 40,
+    "username": "user40",
+    "email": "user40@example.com",
+    "first_name": "Felipe",
+    "last_name": "Juliana",
+    "active": true,
+    "created_at": "2025-02-09T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Tech lead focado em performance e escalabilidade",
+      "avatar": "https://avatar.example.com/40",
+      "location": "Porto Alegre, BR",
+      "website": "https://user40.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "moderator",
+      "user"
+    ]
+  },
+  {
+    "id": 41,
+    "username": "user41",
+    "email": "user41@example.com",
+    "first_name": "Rodrigo",
+    "last_name": "Juliana",
+    "active": false,
+    "created_at": "2025-05-16T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/41",
+      "location": "Curitiba, BR",
+      "website": "https://user41.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin",
+      "viewer"
+    ]
+  },
+  {
+    "id": 42,
+    "username": "user42",
+    "email": "user42@example.com",
+    "first_name": "Rodrigo",
+    "last_name": "Ana",
+    "active": false,
+    "created_at": "2025-01-29T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Engenheira de software especialista em backend e APIs",
+      "avatar": "https://avatar.example.com/42",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user42.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator",
+      "admin",
+      "developer"
+    ]
+  },
+  {
+    "id": 43,
+    "username": "user43",
+    "email": "user43@example.com",
+    "first_name": "Juliana",
+    "last_name": "Beatriz",
+    "active": true,
+    "created_at": "2024-12-05T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Engenheira de software especialista em backend e APIs",
+      "avatar": "https://avatar.example.com/43",
+      "location": "São Paulo, BR",
+      "website": "https://user43.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin",
+      "viewer"
+    ]
+  },
+  {
+    "id": 44,
+    "username": "user44",
+    "email": "user44@example.com",
+    "first_name": "Felipe",
+    "last_name": "Carlos",
+    "active": true,
+    "created_at": "2024-11-28T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Engenheira de software especialista em backend e APIs",
+      "avatar": "https://avatar.example.com/44",
+      "location": "São Paulo, BR",
+      "website": "https://user44.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "id": 45,
+    "username": "user45",
+    "email": "user45@example.com",
+    "first_name": "Gabriel",
+    "last_name": "Beatriz",
+    "active": false,
+    "created_at": "2025-08-27T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Backend developer construindo APIs que escalam",
+      "avatar": "https://avatar.example.com/45",
+      "location": "Curitiba, BR",
+      "website": "https://user45.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer"
+    ]
+  },
+  {
+    "id": 46,
+    "username": "user46",
+    "email": "user46@example.com",
+    "first_name": "Beatriz",
+    "last_name": "Juliana",
+    "active": false,
+    "created_at": "2025-06-20T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/46",
+      "location": "Blumenau, BR",
+      "website": "https://user46.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator",
+      "user",
+      "admin"
+    ]
+  },
+  {
+    "id": 47,
+    "username": "user47",
+    "email": "user47@example.com",
+    "first_name": "Bruno",
+    "last_name": "Fernanda",
+    "active": true,
+    "created_at": "2024-12-17T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Tech lead focado em performance e escalabilidade",
+      "avatar": "https://avatar.example.com/47",
+      "location": "Belo Horizonte, BR",
+      "website": "https://user47.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator",
+      "viewer",
+      "user"
+    ]
+  },
+  {
+    "id": 48,
+    "username": "user48",
+    "email": "user48@example.com",
+    "first_name": "Juliana",
+    "last_name": "Gabriel",
+    "active": true,
+    "created_at": "2025-10-26T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/48",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user48.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "user"
+    ]
+  },
+  {
+    "id": 49,
+    "username": "user49",
+    "email": "user49@example.com",
+    "first_name": "Rodrigo",
+    "last_name": "Bruno",
+    "active": false,
+    "created_at": "2025-04-09T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/49",
+      "location": "São Paulo, BR",
+      "website": "https://user49.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "developer"
+    ]
+  },
+  {
+    "id": 50,
+    "username": "user50",
+    "email": "user50@example.com",
+    "first_name": "Juliana",
+    "last_name": "Rodrigo",
+    "active": true,
+    "created_at": "2025-11-20T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Site Reliability Engineer mantendo sistemas no ar 24/7",
+      "avatar": "https://avatar.example.com/50",
+      "location": "Brasília, BR",
+      "website": "https://user50.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "id": 51,
+    "username": "user51",
+    "email": "user51@example.com",
+    "first_name": "Ana",
+    "last_name": "Beatriz",
+    "active": true,
+    "created_at": "2024-11-29T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/51",
+      "location": "Florianópolis, BR",
+      "website": "https://user51.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator",
+      "user"
+    ]
+  },
+  {
+    "id": 52,
+    "username": "user52",
+    "email": "user52@example.com",
+    "first_name": "Juliana",
+    "last_name": "Lucas",
+    "active": false,
+    "created_at": "2025-02-22T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/52",
+      "location": "Blumenau, BR",
+      "website": "https://user52.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "admin"
+    ]
+  },
+  {
+    "id": 53,
+    "username": "user53",
+    "email": "user53@example.com",
+    "first_name": "Juliana",
+    "last_name": "Gabriel",
+    "active": true,
+    "created_at": "2025-01-14T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Tech lead focado em performance e escalabilidade",
+      "avatar": "https://avatar.example.com/53",
+      "location": "Belo Horizonte, BR",
+      "website": "https://user53.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin",
+      "user"
+    ]
+  },
+  {
+    "id": 54,
+    "username": "user54",
+    "email": "user54@example.com",
+    "first_name": "Patricia",
+    "last_name": "Beatriz",
+    "active": false,
+    "created_at": "2025-06-27T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/54",
+      "location": "Florianópolis, BR",
+      "website": "https://user54.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "admin"
+    ]
+  },
+  {
+    "id": 55,
+    "username": "user55",
+    "email": "user55@example.com",
+    "first_name": "Beatriz",
+    "last_name": "Fernanda",
+    "active": false,
+    "created_at": "2025-08-11T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/55",
+      "location": "Porto Alegre, BR",
+      "website": "https://user55.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator",
+      "user"
+    ]
+  },
+  {
+    "id": 56,
+    "username": "user56",
+    "email": "user56@example.com",
+    "first_name": "Rodrigo",
+    "last_name": "Beatriz",
+    "active": true,
+    "created_at": "2024-12-21T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Backend developer construindo APIs que escalam",
+      "avatar": "https://avatar.example.com/56",
+      "location": "Curitiba, BR",
+      "website": "https://user56.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer"
+    ]
+  },
+  {
+    "id": 57,
+    "username": "user57",
+    "email": "user57@example.com",
+    "first_name": "Amanda",
+    "last_name": "Fernanda",
+    "active": true,
+    "created_at": "2025-09-04T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/57",
+      "location": "Belo Horizonte, BR",
+      "website": "https://user57.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user",
+      "viewer",
+      "moderator"
+    ]
+  },
+  {
+    "id": 58,
+    "username": "user58",
+    "email": "user58@example.com",
+    "first_name": "Bruno",
+    "last_name": "Rodrigo",
+    "active": false,
+    "created_at": "2025-07-31T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Engenheira de software especialista em backend e APIs",
+      "avatar": "https://avatar.example.com/58",
+      "location": "Brasília, BR",
+      "website": "https://user58.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "viewer",
+      "moderator"
+    ]
+  },
+  {
+    "id": 59,
+    "username": "user59",
+    "email": "user59@example.com",
+    "first_name": "Rafael",
+    "last_name": "Amanda",
+    "active": false,
+    "created_at": "2024-11-29T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Backend developer construindo APIs que escalam",
+      "avatar": "https://avatar.example.com/59",
+      "location": "Porto Alegre, BR",
+      "website": "https://user59.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user",
+      "moderator",
+      "viewer"
+    ]
+  },
+  {
+    "id": 60,
+    "username": "user60",
+    "email": "user60@example.com",
+    "first_name": "Felipe",
+    "last_name": "Patricia",
+    "active": true,
+    "created_at": "2025-10-22T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Backend developer construindo APIs que escalam",
+      "avatar": "https://avatar.example.com/60",
+      "location": "Curitiba, BR",
+      "website": "https://user60.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin",
+      "viewer"
+    ]
+  },
+  {
+    "id": 61,
+    "username": "user61",
+    "email": "user61@example.com",
+    "first_name": "Letícia",
+    "last_name": "Camila",
+    "active": true,
+    "created_at": "2025-07-29T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Backend developer construindo APIs que escalam",
+      "avatar": "https://avatar.example.com/61",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user61.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer"
+    ]
+  },
+  {
+    "id": 62,
+    "username": "user62",
+    "email": "user62@example.com",
+    "first_name": "Patricia",
+    "last_name": "Juliana",
+    "active": true,
+    "created_at": "2025-01-01T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/62",
+      "location": "Florianópolis, BR",
+      "website": "https://user62.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "user",
+      "developer"
+    ]
+  },
+  {
+    "id": 63,
+    "username": "user63",
+    "email": "user63@example.com",
+    "first_name": "Letícia",
+    "last_name": "João",
+    "active": true,
+    "created_at": "2024-12-24T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Site Reliability Engineer mantendo sistemas no ar 24/7",
+      "avatar": "https://avatar.example.com/63",
+      "location": "Belo Horizonte, BR",
+      "website": "https://user63.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator",
+      "user",
+      "admin"
+    ]
+  },
+  {
+    "id": 64,
+    "username": "user64",
+    "email": "user64@example.com",
+    "first_name": "Patricia",
+    "last_name": "Amanda",
+    "active": false,
+    "created_at": "2025-11-20T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Engenheira de software especialista em backend e APIs",
+      "avatar": "https://avatar.example.com/64",
+      "location": "Belo Horizonte, BR",
+      "website": "https://user64.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator",
+      "viewer",
+      "user"
+    ]
+  },
+  {
+    "id": 65,
+    "username": "user65",
+    "email": "user65@example.com",
+    "first_name": "Rafael",
+    "last_name": "Patricia",
+    "active": true,
+    "created_at": "2025-09-29T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/65",
+      "location": "São Paulo, BR",
+      "website": "https://user65.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user"
+    ]
+  },
+  {
+    "id": 66,
+    "username": "user66",
+    "email": "user66@example.com",
+    "first_name": "Gabriel",
+    "last_name": "Amanda",
+    "active": true,
+    "created_at": "2025-01-09T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Engenheira de software especialista em backend e APIs",
+      "avatar": "https://avatar.example.com/66",
+      "location": "Belo Horizonte, BR",
+      "website": "https://user66.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user",
+      "admin"
+    ]
+  },
+  {
+    "id": 67,
+    "username": "user67",
+    "email": "user67@example.com",
+    "first_name": "Fernanda",
+    "last_name": "Ana",
+    "active": true,
+    "created_at": "2025-05-02T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Backend developer construindo APIs que escalam",
+      "avatar": "https://avatar.example.com/67",
+      "location": "Brasília, BR",
+      "website": "https://user67.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user",
+      "admin"
+    ]
+  },
+  {
+    "id": 68,
+    "username": "user68",
+    "email": "user68@example.com",
+    "first_name": "Bruno",
+    "last_name": "Beatriz",
+    "active": false,
+    "created_at": "2024-12-18T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "DevOps engineer automatizando tudo que é possível",
+      "avatar": "https://avatar.example.com/68",
+      "location": "Florianópolis, BR",
+      "website": "https://user68.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "moderator"
+    ]
+  },
+  {
+    "id": 69,
+    "username": "user69",
+    "email": "user69@example.com",
+    "first_name": "Lucas",
+    "last_name": "Pedro",
+    "active": false,
+    "created_at": "2025-02-04T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Engenheira de software especialista em backend e APIs",
+      "avatar": "https://avatar.example.com/69",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user69.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "id": 70,
+    "username": "user70",
+    "email": "user70@example.com",
+    "first_name": "Bruno",
+    "last_name": "Maria",
+    "active": true,
+    "created_at": "2025-07-12T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/70",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user70.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user"
+    ]
+  },
+  {
+    "id": 71,
+    "username": "user71",
+    "email": "user71@example.com",
+    "first_name": "Juliana",
+    "last_name": "Ana",
+    "active": false,
+    "created_at": "2025-02-07T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/71",
+      "location": "São Paulo, BR",
+      "website": "https://user71.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer"
+    ]
+  },
+  {
+    "id": 72,
+    "username": "user72",
+    "email": "user72@example.com",
+    "first_name": "Amanda",
+    "last_name": "Pedro",
+    "active": true,
+    "created_at": "2025-02-02T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Backend developer construindo APIs que escalam",
+      "avatar": "https://avatar.example.com/72",
+      "location": "Curitiba, BR",
+      "website": "https://user72.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator",
+      "viewer"
+    ]
+  },
+  {
+    "id": 73,
+    "username": "user73",
+    "email": "user73@example.com",
+    "first_name": "João",
+    "last_name": "Juliana",
+    "active": false,
+    "created_at": "2025-07-02T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/73",
+      "location": "Porto Alegre, BR",
+      "website": "https://user73.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user"
+    ]
+  },
+  {
+    "id": 74,
+    "username": "user74",
+    "email": "user74@example.com",
+    "first_name": "Juliana",
+    "last_name": "Carlos",
+    "active": true,
+    "created_at": "2025-01-14T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Tech lead focado em performance e escalabilidade",
+      "avatar": "https://avatar.example.com/74",
+      "location": "Porto Alegre, BR",
+      "website": "https://user74.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin",
+      "developer",
+      "moderator"
+    ]
+  },
+  {
+    "id": 75,
+    "username": "user75",
+    "email": "user75@example.com",
+    "first_name": "Amanda",
+    "last_name": "Letícia",
+    "active": false,
+    "created_at": "2025-03-25T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Engenheira de software especialista em backend e APIs",
+      "avatar": "https://avatar.example.com/75",
+      "location": "São Paulo, BR",
+      "website": "https://user75.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer"
+    ]
+  },
+  {
+    "id": 76,
+    "username": "user76",
+    "email": "user76@example.com",
+    "first_name": "Letícia",
+    "last_name": "Patricia",
+    "active": true,
+    "created_at": "2025-10-26T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/76",
+      "location": "Blumenau, BR",
+      "website": "https://user76.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "admin",
+      "moderator"
+    ]
+  },
+  {
+    "id": 77,
+    "username": "user77",
+    "email": "user77@example.com",
+    "first_name": "Carlos",
+    "last_name": "Rafael",
+    "active": true,
+    "created_at": "2025-04-25T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/77",
+      "location": "Brasília, BR",
+      "website": "https://user77.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin",
+      "developer"
+    ]
+  },
+  {
+    "id": 78,
+    "username": "user78",
+    "email": "user78@example.com",
+    "first_name": "Pedro",
+    "last_name": "Felipe",
+    "active": true,
+    "created_at": "2025-05-28T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Site Reliability Engineer mantendo sistemas no ar 24/7",
+      "avatar": "https://avatar.example.com/78",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user78.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin",
+      "user",
+      "moderator"
+    ]
+  },
+  {
+    "id": 79,
+    "username": "user79",
+    "email": "user79@example.com",
+    "first_name": "Gabriel",
+    "last_name": "Gabriel",
+    "active": true,
+    "created_at": "2024-12-30T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/79",
+      "location": "Curitiba, BR",
+      "website": "https://user79.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "admin",
+      "moderator"
+    ]
+  },
+  {
+    "id": 80,
+    "username": "user80",
+    "email": "user80@example.com",
+    "first_name": "Patricia",
+    "last_name": "Ana",
+    "active": true,
+    "created_at": "2025-07-10T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "DevOps engineer automatizando tudo que é possível",
+      "avatar": "https://avatar.example.com/80",
+      "location": "Belo Horizonte, BR",
+      "website": "https://user80.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "user",
+      "moderator"
+    ]
+  },
+  {
+    "id": 81,
+    "username": "user81",
+    "email": "user81@example.com",
+    "first_name": "Fernanda",
+    "last_name": "Pedro",
+    "active": true,
+    "created_at": "2025-02-28T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/81",
+      "location": "Brasília, BR",
+      "website": "https://user81.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin",
+      "user",
+      "moderator"
+    ]
+  },
+  {
+    "id": 82,
+    "username": "user82",
+    "email": "user82@example.com",
+    "first_name": "Amanda",
+    "last_name": "Pedro",
+    "active": false,
+    "created_at": "2025-02-26T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Backend developer construindo APIs que escalam",
+      "avatar": "https://avatar.example.com/82",
+      "location": "Curitiba, BR",
+      "website": "https://user82.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer"
+    ]
+  },
+  {
+    "id": 83,
+    "username": "user83",
+    "email": "user83@example.com",
+    "first_name": "Rodrigo",
+    "last_name": "Carlos",
+    "active": true,
+    "created_at": "2025-09-24T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/83",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user83.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "admin",
+      "user"
+    ]
+  },
+  {
+    "id": 84,
+    "username": "user84",
+    "email": "user84@example.com",
+    "first_name": "Ana",
+    "last_name": "Ana",
+    "active": false,
+    "created_at": "2025-01-24T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Backend developer construindo APIs que escalam",
+      "avatar": "https://avatar.example.com/84",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user84.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user",
+      "viewer",
+      "moderator"
+    ]
+  },
+  {
+    "id": 85,
+    "username": "user85",
+    "email": "user85@example.com",
+    "first_name": "Bruno",
+    "last_name": "Camila",
+    "active": true,
+    "created_at": "2025-05-23T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Site Reliability Engineer mantendo sistemas no ar 24/7",
+      "avatar": "https://avatar.example.com/85",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user85.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator",
+      "user",
+      "admin"
+    ]
+  },
+  {
+    "id": 86,
+    "username": "user86",
+    "email": "user86@example.com",
+    "first_name": "Bruno",
+    "last_name": "Ana",
+    "active": false,
+    "created_at": "2025-04-06T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/86",
+      "location": "Brasília, BR",
+      "website": "https://user86.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "developer",
+      "user"
+    ]
+  },
+  {
+    "id": 87,
+    "username": "user87",
+    "email": "user87@example.com",
+    "first_name": "Amanda",
+    "last_name": "Patricia",
+    "active": true,
+    "created_at": "2025-06-20T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/87",
+      "location": "Florianópolis, BR",
+      "website": "https://user87.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "moderator",
+      "admin"
+    ]
+  },
+  {
+    "id": 88,
+    "username": "user88",
+    "email": "user88@example.com",
+    "first_name": "Beatriz",
+    "last_name": "Felipe",
+    "active": false,
+    "created_at": "2025-07-30T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/88",
+      "location": "São Paulo, BR",
+      "website": "https://user88.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin",
+      "moderator",
+      "developer"
+    ]
+  },
+  {
+    "id": 89,
+    "username": "user89",
+    "email": "user89@example.com",
+    "first_name": "João",
+    "last_name": "Pedro",
+    "active": false,
+    "created_at": "2025-09-08T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Backend developer construindo APIs que escalam",
+      "avatar": "https://avatar.example.com/89",
+      "location": "Brasília, BR",
+      "website": "https://user89.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "moderator"
+    ]
+  },
+  {
+    "id": 90,
+    "username": "user90",
+    "email": "user90@example.com",
+    "first_name": "Pedro",
+    "last_name": "João",
+    "active": false,
+    "created_at": "2025-05-30T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/90",
+      "location": "Curitiba, BR",
+      "website": "https://user90.example.com",
+      "metadata": {
+        "language": "es-ES",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "moderator"
+    ]
+  },
+  {
+    "id": 91,
+    "username": "user91",
+    "email": "user91@example.com",
+    "first_name": "Carlos",
+    "last_name": "Camila",
+    "active": false,
+    "created_at": "2025-10-03T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/91",
+      "location": "Florianópolis, BR",
+      "website": "https://user91.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "moderator"
+    ]
+  },
+  {
+    "id": 92,
+    "username": "user92",
+    "email": "user92@example.com",
+    "first_name": "Letícia",
+    "last_name": "Rafael",
+    "active": false,
+    "created_at": "2025-02-14T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Site Reliability Engineer mantendo sistemas no ar 24/7",
+      "avatar": "https://avatar.example.com/92",
+      "location": "São Paulo, BR",
+      "website": "https://user92.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer",
+      "developer"
+    ]
+  },
+  {
+    "id": 93,
+    "username": "user93",
+    "email": "user93@example.com",
+    "first_name": "João",
+    "last_name": "Patricia",
+    "active": true,
+    "created_at": "2025-04-10T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Engenheira de software especialista em backend e APIs",
+      "avatar": "https://avatar.example.com/93",
+      "location": "Porto Alegre, BR",
+      "website": "https://user93.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user",
+      "moderator",
+      "viewer"
+    ]
+  },
+  {
+    "id": 94,
+    "username": "user94",
+    "email": "user94@example.com",
+    "first_name": "Ana",
+    "last_name": "Camila",
+    "active": false,
+    "created_at": "2025-10-10T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Desenvolvedor apaixonado por Go e sistemas distribuídos",
+      "avatar": "https://avatar.example.com/94",
+      "location": "Florianópolis, BR",
+      "website": "https://user94.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer"
+    ]
+  },
+  {
+    "id": 95,
+    "username": "user95",
+    "email": "user95@example.com",
+    "first_name": "Rafael",
+    "last_name": "Felipe",
+    "active": true,
+    "created_at": "2025-05-22T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "DevOps engineer automatizando tudo que é possível",
+      "avatar": "https://avatar.example.com/95",
+      "location": "Curitiba, BR",
+      "website": "https://user95.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user"
+    ]
+  },
+  {
+    "id": 96,
+    "username": "user96",
+    "email": "user96@example.com",
+    "first_name": "João",
+    "last_name": "Rodrigo",
+    "active": true,
+    "created_at": "2025-01-17T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Site Reliability Engineer mantendo sistemas no ar 24/7",
+      "avatar": "https://avatar.example.com/96",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user96.example.com",
+      "metadata": {
+        "language": "fr-FR",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "moderator"
+    ]
+  },
+  {
+    "id": 97,
+    "username": "user97",
+    "email": "user97@example.com",
+    "first_name": "Carlos",
+    "last_name": "Patricia",
+    "active": false,
+    "created_at": "2025-05-12T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Backend developer construindo APIs que escalam",
+      "avatar": "https://avatar.example.com/97",
+      "location": "Brasília, BR",
+      "website": "https://user97.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "auto",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "user"
+    ]
+  },
+  {
+    "id": 98,
+    "username": "user98",
+    "email": "user98@example.com",
+    "first_name": "Maria",
+    "last_name": "Carlos",
+    "active": false,
+    "created_at": "2025-04-11T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Full stack developer com foco em Go e React",
+      "avatar": "https://avatar.example.com/98",
+      "location": "Blumenau, BR",
+      "website": "https://user98.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "viewer"
+    ]
+  },
+  {
+    "id": 99,
+    "username": "user99",
+    "email": "user99@example.com",
+    "first_name": "Letícia",
+    "last_name": "Maria",
+    "active": false,
+    "created_at": "2025-01-14T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/99",
+      "location": "Rio de Janeiro, BR",
+      "website": "https://user99.example.com",
+      "metadata": {
+        "language": "en-US",
+        "theme": "light",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "admin",
+      "viewer",
+      "developer"
+    ]
+  },
+  {
+    "id": 100,
+    "username": "user100",
+    "email": "user100@example.com",
+    "first_name": "Beatriz",
+    "last_name": "Carlos",
+    "active": false,
+    "created_at": "2025-10-13T06:43:33.9664575-03:00",
+    "updated_at": "2025-11-22T06:43:33.9664575-03:00",
+    "profile": {
+      "bio": "Arquiteto de soluções cloud native e microsserviços",
+      "avatar": "https://avatar.example.com/100",
+      "location": "Florianópolis, BR",
+      "website": "https://user100.example.com",
+      "metadata": {
+        "language": "pt-BR",
+        "theme": "dark",
+        "timezone": "UTC-3"
+      }
+    },
+    "roles": [
+      "developer",
+      "viewer"
+    ]
+  }
+]
